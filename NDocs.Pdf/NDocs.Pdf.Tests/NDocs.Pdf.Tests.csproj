@@ -59,7 +59,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encoding\FastAsciiEncodingTests.cs" />
+    <Compile Include="Encoding\HexadecimalStringEncodingTests.cs" />
+    <Compile Include="Encoding\LiteralStringEncodingTests.cs" />
+    <Compile Include="Encoding\NameEncoding12Tests.cs" />
+    <Compile Include="Encoding\NameEncodingTests.cs" />
+    <Compile Include="Encoding\PdfDocEncodingTests.cs" />
+    <Compile Include="Filters\Ascii85DecodeFilterTests.cs" />
+    <Compile Include="Filters\AsciiHexDecodeFilterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUtility.cs" />
+    <Compile Include="Types\BooleanTests.cs" />
+    <Compile Include="VersionSelectorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NDocs.Pdf\NDocs.Pdf.csproj">
@@ -68,6 +79,27 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Files\2017-18_Sportradar_Official_NFL_Statistics_Feeds_v2.pdf" />
+    <EmbeddedResource Include="Files\Dummy.pdf" />
+    <EmbeddedResource Include="Files\ExtendScript Toolkit ReadMe.pdf" />
+    <EmbeddedResource Include="Files\Man_SIM_2016.pdf" />
+    <EmbeddedResource Include="Files\Masterpass Branding Requirements.pdf" />
+    <EmbeddedResource Include="Files\MATLAB Photoshop Read Me.pdf" />
+    <EmbeddedResource Include="Files\Pages_1_2.pdf" />
+    <EmbeddedResource Include="Files\Pages_3_4.pdf" />
+    <EmbeddedResource Include="Files\pdf995.pdf" />
+    <EmbeddedResource Include="Files\PDFSigQFormalRep.pdf" />
+    <EmbeddedResource Include="Files\pdf_reference_1-7.pdf" />
+    <EmbeddedResource Include="Files\Photoshop CS5 AppleScript Ref.pdf" />
+    <EmbeddedResource Include="Files\Photoshop CS5 JavaScript Ref.pdf" />
+    <EmbeddedResource Include="Files\Photoshop CS5 Scripting Guide.pdf" />
+    <EmbeddedResource Include="Files\readme.pdf" />
+    <EmbeddedResource Include="Files\ReadMe_ja_JP.pdf" />
+    <EmbeddedResource Include="Files\ReadMe_nl_NL.pdf" />
+    <EmbeddedResource Include="Files\ReadMe_ru_RU.pdf" />
+    <EmbeddedResource Include="Files\security.pdf" />
+    <EmbeddedResource Include="Files\SwitchBoard.pdf" />
+    <EmbeddedResource Include="Files\test.pdf" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

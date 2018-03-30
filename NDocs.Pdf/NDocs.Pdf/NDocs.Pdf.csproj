@@ -41,7 +41,81 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayHelper.cs" />
+    <Compile Include="Encoding\BaseEncoding.cs" />
+    <Compile Include="Encoding\FastAsciiEncoding.cs" />
+    <Compile Include="Encoding\HexadecimalStringEncoding.cs" />
+    <Compile Include="Encoding\LiteralStringEncoding.cs" />
+    <Compile Include="Encoding\NameEncoding.cs" />
+    <Compile Include="Encoding\NameEncoding12.cs" />
+    <Compile Include="Encoding\PdfDocEncoding.cs" />
+    <Compile Include="Encoding\PdfEncodingProvider.cs" />
+    <Compile Include="Filters\Ascii85DecodeFilter.cs" />
+    <Compile Include="Filters\AsciiHexDecodeFilter.cs" />
+    <Compile Include="Filters\CcittFaxDecodeFilter.cs" />
+    <Compile Include="Filters\CryptFilter.cs" />
+    <Compile Include="Filters\DctDecodeFilter.cs" />
+    <Compile Include="Filters\Filter.cs" />
+    <Compile Include="Filters\FilterException.cs" />
+    <Compile Include="Filters\FilterType.cs" />
+    <Compile Include="Filters\FlateDecodeFilter.cs" />
+    <Compile Include="Filters\IFilterStrategy.cs" />
+    <Compile Include="Filters\Jbig2DecodeFilter.cs" />
+    <Compile Include="Filters\JpxDecodeFilter.cs" />
+    <Compile Include="Filters\LzwDecodeFilter.cs" />
+    <Compile Include="Filters\RunLengthDecodeFilter.cs" />
+    <Compile Include="IPersistable.cs" />
+    <Compile Include="IRenderable.cs" />
+    <Compile Include="ObjectState.cs" />
+    <Compile Include="Parsing\Ascii.cs" />
+    <Compile Include="Parsing\Comment.cs" />
+    <Compile Include="Parsing\CrossReference.cs" />
+    <Compile Include="Parsing\CrossReferenceSection.cs" />
+    <Compile Include="Parsing\CrossReferenceTable.cs" />
+    <Compile Include="Parsing\Header.cs" />
+    <Compile Include="Parsing\IndirectObject.cs" />
+    <Compile Include="Parsing\IndirectReference.cs" />
+    <Compile Include="Parsing\IPdfScanner.cs" />
+    <Compile Include="Parsing\IPdfScannerFactory.cs" />
+    <Compile Include="Parsing\IPdfType.cs" />
+    <Compile Include="Parsing\ObjectIdentifier.cs" />
+    <Compile Include="Parsing\PdfFormatException.cs" />
+    <Compile Include="Parsing\PdfParser.cs" />
+    <Compile Include="Parsing\PdfReader.cs" />
+    <Compile Include="Parsing\PdfScannerFactory.cs" />
+    <Compile Include="Parsing\PdfStream.cs" />
+    <Compile Include="Parsing\RandomAccessPdfScanner.cs" />
+    <Compile Include="Parsing\Token.cs" />
+    <Compile Include="Parsing\TokenClassification.cs" />
+    <Compile Include="Parsing\Trailer.cs" />
+    <Compile Include="PdfDocument.cs" />
+    <Compile Include="PdfDocument.internal.cs" />
+    <Compile Include="PdfDocument.static.cs" />
+    <Compile Include="PdfVersionAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Array.cs" />
+    <Compile Include="Types\AsciiString.cs" />
+    <Compile Include="Types\Boolean.cs" />
+    <Compile Include="Types\ByteString.cs" />
+    <Compile Include="Types\Dictionary.cs" />
+    <Compile Include="Types\Integer.cs" />
+    <Compile Include="Types\Name.cs" />
+    <Compile Include="Types\Null.cs" />
+    <Compile Include="Types\Real.cs" />
+    <Compile Include="Types\Stream.cs" />
+    <Compile Include="Types\String.cs" />
+    <Compile Include="Types\StringEncodingType.cs" />
+    <Compile Include="Types\StringFormatType.cs" />
+    <Compile Include="VersionNotSupportedException.cs" />
+    <Compile Include="VersionSelector.cs" />
+    <Compile Include="_TODO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Encoding\Encoding.cd" />
+    <None Include="Types\Types.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Structures\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using NDocs.Pdf;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
@@ -10,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NDocs.Pdf")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © NDocs 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,3 +35,14 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: InternalsVisibleTo("NDocs.Pdf.Tests")]
+
+// Supported PDF Versions
+[assembly: PdfVersion("1.0")]
+[assembly: PdfVersion("1.1")]
+[assembly: PdfVersion("1.2")]
+[assembly: PdfVersion("1.3")]
+[assembly: PdfVersion("1.4")]
+[assembly: PdfVersion("1.5")]
+[assembly: PdfVersion("1.6")]
+[assembly: PdfVersion("1.7")]

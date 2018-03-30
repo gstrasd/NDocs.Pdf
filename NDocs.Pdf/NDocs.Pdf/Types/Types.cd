@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Company.Documents.Pdf.Types.Array" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAAAAAAAAAAAAAEARAgBAIAACA=</HashCode>
+      <FileName>Types\Array.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.AsciiString" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\AsciiString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Boolean" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACABACAAgQEgBAACAAAAAAAQIAAABAgFAAAAjA=</HashCode>
+      <FileName>Types\Boolean.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.224" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.ByteString" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Types\ByteString.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Dictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAABBGCCAABAAAAAAAABAEABAgFABQASA=</HashCode>
+      <FileName>Types\Dictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.DictionaryEntry" Collapsed="true">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Types\Dictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Integer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACABACAAAQEgAECAAAAAAAAAIAAABBgFAAAAjA=</HashCode>
+      <FileName>Types\Integer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Name" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIACABACAAgQEgAAACAAAAAAAAIAAABAgFAAAAjA=</HashCode>
+      <FileName>Types\Name.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Null" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABACAAAQEgAAAIAAAAAAAAIAAABAgFAAAAiA=</HashCode>
+      <FileName>Types\Null.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Real" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACABACAAAQEwAEAAAAAAEAAAIAAABAgFAAAAjA=</HashCode>
+      <FileName>Types\Real.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.Stream" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAAABACAEAQAAIAAAABAAAAAAAAAABAgFAAAACA=</HashCode>
+      <FileName>Types\Stream.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company.Documents.Pdf.Types.String" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIACABACAAgQEgAAACAAAAAAAAIAAABAgFAAAAjI=</HashCode>
+      <FileName>Types\String.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
